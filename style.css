@@ -61,3 +61,32 @@ a {
 a:hover {
   color: #FBB1C0;
 }
+
+@media only screen and (max-width: 640px) {
+    .title  {
+        width: auto;
+        margin: auto;
+    }
+    .linkListPos {
+        width: 100%;
+        position: static;
+        bottom: 0;
+        left: 0;
+        border: white solid 1px;
+    }
+    .main  {
+        width: auto;
+        margin: auto;
+    }
+    
+    .links  {
+        width: auto;
+        margin: auto;
+    }
+    
+    .center {
+        display: flex;
+        justify-content: center;
+        font-size:x-large ;
+    }
+}
