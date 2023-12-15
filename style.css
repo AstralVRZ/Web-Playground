@@ -1,0 +1,63 @@
+@font-face {
+	font-family: "pc-9800";
+	src: url(/Fonts/pc-9800.ttf);
+}
+
+.title  {
+    width: 700px;
+    margin: auto;
+}
+
+.linkListPos {
+    width: 370px;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border: white solid 1px;
+}
+
+.main  {
+    width: 700px;
+    margin: auto;
+}
+
+.links  {
+    width: 700px;
+    margin: auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    font-size:x-large ;
+}
+
+hr {
+    width: auto;
+    height: 1px;
+    border: 0px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: pc-9800;
+    background-image: url(/Images/bg.jpg);
+    background-size: 100%;
+}
+
+ul {
+    color: blueviolet;
+}
+
+a {
+  color: rgb(138, 43, 226);
+  text-decoration: underline dashed;
+  transition: color 0.25s ease-in-out;
+}
+
+a:hover {
+  color: #FBB1C0;
+}
