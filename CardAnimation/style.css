@@ -6,7 +6,7 @@ a {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: agency FB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -48,6 +48,7 @@ body {
 }
 
 .card > .row > .icon {
+    position:absolute;
     background: #223;
     color: white;
     border-radius: 50%;
@@ -61,6 +62,7 @@ body {
 
 .card > .row > .description {
     display: flex;
+    margin-left: 20%;
     justify-content: center;
     flex-direction: column;
     overflow: hidden;
@@ -70,8 +72,9 @@ body {
     transition-delay: .3s;
     transition: all .3s ease;
     background-color: #00000080;
-    border-top: white solid 1px;
-    border-left: white solid 1px;
+    border-top: white solid 2px;
+    border-left: white solid 2px;
+    border-right: white solid 2px;
     border-radius: 10px;
     padding-top: 5px;
     padding-left: 5px;
