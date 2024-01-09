@@ -13,18 +13,20 @@
     margin: auto;
     position: absolute;
     top: 0%;
-    left: 0%;
+    right: 0%;
     border: white solid 1px;
 }
 
 .main  {
     width: 700px;
-    margin: auto;
+}
+
+.info  {
+    width: 700px;
 }
 
 .links  {
     width: 700px;
-    margin: auto;
 }
 
 .center {
