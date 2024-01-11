@@ -19,6 +19,7 @@
 
 .main  {
     width: 700px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .info  {
@@ -29,6 +30,10 @@
 .links  {
     width: 700px;
     margin: 15px;
+}
+
+#linkList {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .center {
