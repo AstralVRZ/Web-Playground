@@ -82,6 +82,10 @@ a:hover {
         width: auto;
         margin: auto;
     }
+
+    .info {
+        width: auto;
+    }
     
     .links  {
         width: auto;
