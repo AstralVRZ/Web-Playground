@@ -40,7 +40,7 @@ hr {
 .recipe {
     background-color: #fff;
     padding: 30px;
-    border-radius: 5px;
+    border-radius: 15px;
     width: 50%;
     overflow: hidden;
     margin: 0 auto;
@@ -53,17 +53,16 @@ hr {
 
 .recipe img {
     max-width: 100%;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .prepTime {
     background-color: #fff5fa;
-    padding-left: 10px;
-    padding-bottom: 5px;
-    border-radius: 5px;
+    padding: 5px;
+    border-radius: 15px;
 }
 
-.prepTime h2 {
+.prepTime h3 {
     color: #7b284f;
 }
 
